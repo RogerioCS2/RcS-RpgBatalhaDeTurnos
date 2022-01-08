@@ -27,10 +27,10 @@ if(place_meeting(x , y + velv, objColisor)){
 x += velh;
 y += velv;
 
-image_speed = 0.5;
+image_speed = 1.5;
 if(velh == 0 && velv == 0){
 	image_speed = 0;
-	image_index = 0;
+	image_index = 1;
 }
 
 if(velh > 0 ){

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprMuro",
-    "path": "sprites/sprMuro/sprMuro.yy",
+    "name": "sprMuroVV",
+    "path": "sprites/sprMuroVV/sprMuroVV.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -48,8 +48,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "VilaVerde",
+    "path": "folders/Tile Sets/VilaVerde.yy",
   },
   "resourceVersion": "1.0",
   "name": "TileSet1",

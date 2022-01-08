@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprEstrada",
-    "path": "sprites/sprEstrada/sprEstrada.yy",
+    "name": "sprEstradaVV",
+    "path": "sprites/sprEstradaVV/sprEstradaVV.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
@@ -48,8 +48,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "VilaVerde",
+    "path": "folders/Tile Sets/VilaVerde.yy",
   },
   "resourceVersion": "1.0",
   "name": "TileSet2",

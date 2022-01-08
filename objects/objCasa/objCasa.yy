@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprCasa",
-    "path": "sprites/sprCasa/sprCasa.yy",
+    "name": "sprCasaVV",
+    "path": "sprites/sprCasaVV/sprCasaVV.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cenario",
-    "path": "folders/Objetos/Cenario.yy",
+    "name": "VilaVerde",
+    "path": "folders/Objetos/Cenario/VilaVerde.yy",
   },
   "resourceVersion": "1.0",
   "name": "objCasa",
