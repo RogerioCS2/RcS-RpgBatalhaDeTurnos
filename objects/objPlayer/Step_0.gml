@@ -26,3 +26,21 @@ if(place_meeting(x , y + velv, objColisor)){
 
 x += velh;
 y += velv;
+
+image_speed = 0.5;
+if(velh == 0 && velv == 0){
+	image_speed = 0;
+	image_index = 0;
+}
+
+if(velh > 0 ){
+	sprite_index = sprPlayerDireita;
+} else if(velh < 0){
+	sprite_index = sprPlayerEsquerda;
+} else if(velv > 0){
+	sprite_index = sprPlayerBaixo;
+} else if(velv < 0){
+	sprite_index = sprPlayerCima;
+}
+	
+
