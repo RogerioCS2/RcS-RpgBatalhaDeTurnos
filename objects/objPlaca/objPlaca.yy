@@ -1,15 +1,12 @@
 {
   "spriteId": {
-    "name": "sprPlayerBaixo",
-    "path": "sprites/sprPlayerBaixo/sprPlayerBaixo.yy",
+    "name": "sprPlaca",
+    "path": "sprites/sprPlaca/sprPlaca.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "ColisaoPlayer",
-    "path": "sprites/ColisaoPlayer/ColisaoPlayer.yy",
-  },
-  "persistent": true,
+  "spriteMaskId": null,
+  "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,17 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objetos/Player.yy",
+    "name": "Cenario",
+    "path": "folders/Objetos/Cenario.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objPlayer",
+  "name": "objPlaca",
   "tags": [],
   "resourceType": "GMObject",
 }
