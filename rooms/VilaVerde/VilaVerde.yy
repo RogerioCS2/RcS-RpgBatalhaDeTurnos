@@ -106,6 +106,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"objColisor","path":"objects/objColisor/objColisor.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.3203125,"scaleY":0.828125,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":473.75,"y":483.5,"resourceVersion":"1.0","name":"inst_1AEC3F0D","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objPlaca","path":"objects/objPlaca/objPlaca.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1856.0,"y":672.0,"resourceVersion":"1.0","name":"inst_768FA2B8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"objTrocarTela","path":"objects/objTrocarTela/objTrocarTela.yy",},"inheritCode":false,"hasCreationCode":true,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1875.0,"y":698.0,"resourceVersion":"1.0","name":"inst_AFADF3","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"objBatalhaController","path":"objects/objBatalhaController/objBatalhaController.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1389.0,"y":51.0,"resourceVersion":"1.0","name":"inst_49BB966E","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMRInstanceLayer",},
     {"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":171,"SerialiseHeight":96,"TileSerialiseData":[
 13,14,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,6,7,4,5,1,2,8,9,10,11,8,9,10,11,8,9,10,11,8,9,10,11,8,9,10,11,8,9,10,11,8,9,10,11,8,9,10,11,8,9,10,11,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,2147483648,
@@ -502,7 +503,7 @@
     {"spriteId":{"name":"sprCenarioVV","path":"sprites/sprCenarioVV/sprCenarioVV.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/VilaVerde/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_2DE8F5C1","path":"rooms/VilaVerde/VilaVerde.yy",},
@@ -597,6 +598,7 @@
     {"name":"inst_52E867E4","path":"rooms/VilaVerde/VilaVerde.yy",},
     {"name":"inst_768FA2B8","path":"rooms/VilaVerde/VilaVerde.yy",},
     {"name":"inst_AFADF3","path":"rooms/VilaVerde/VilaVerde.yy",},
+    {"name":"inst_49BB966E","path":"rooms/VilaVerde/VilaVerde.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

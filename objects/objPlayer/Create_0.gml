@@ -3,3 +3,4 @@
 vel = 4;
 velh = 0;
 velv = 0;
+movendo = false;

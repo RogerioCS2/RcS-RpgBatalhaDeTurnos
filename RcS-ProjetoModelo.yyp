@@ -18,8 +18,10 @@
     {"id":{"name":"TileSet6","path":"tilesets/TileSet6/TileSet6.yy",},"order":0,},
     {"id":{"name":"objTrocarTela","path":"objects/objTrocarTela/objTrocarTela.yy",},"order":1,},
     {"id":{"name":"sprAguaVV","path":"sprites/sprAguaVV/sprAguaVV.yy",},"order":0,},
+    {"id":{"name":"objBatalhaController","path":"objects/objBatalhaController/objBatalhaController.yy",},"order":3,},
     {"id":{"name":"objTransicao","path":"objects/objTransicao/objTransicao.yy",},"order":2,},
     {"id":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},"order":3,},
+    {"id":{"name":"sprBatalha","path":"sprites/sprBatalha/sprBatalha.yy",},"order":8,},
     {"id":{"name":"antComandosGit","path":"notes/antComandosGit/antComandosGit.yy",},"order":1,},
     {"id":{"name":"objColisor","path":"objects/objColisor/objColisor.yy",},"order":0,},
     {"id":{"name":"sndMusicaGeral","path":"sounds/sndMusicaGeral/sndMusicaGeral.yy",},"order":0,},
@@ -36,6 +38,7 @@
     {"id":{"name":"objArvoreVV","path":"objects/objArvoreVV/objArvoreVV.yy",},"order":0,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"objCasa","path":"objects/objCasa/objCasa.yy",},"order":1,},
+    {"id":{"name":"BatalhaVilaVerde","path":"rooms/BatalhaVilaVerde/BatalhaVilaVerde.yy",},"order":2,},
     {"id":{"name":"ColisaoPlayer","path":"sprites/ColisaoPlayer/ColisaoPlayer.yy",},"order":4,},
     {"id":{"name":"sprArvoreVV","path":"sprites/sprArvoreVV/sprArvoreVV.yy",},"order":1,},
     {"id":{"name":"VilaVerde","path":"rooms/VilaVerde/VilaVerde.yy",},"order":0,},
@@ -64,6 +67,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"VilaVerde","path":"rooms/VilaVerde/VilaVerde.yy",},},
     {"roomId":{"name":"CaminhoDanoso","path":"rooms/CaminhoDanoso/CaminhoDanoso.yy",},},
+    {"roomId":{"name":"BatalhaVilaVerde","path":"rooms/BatalhaVilaVerde/BatalhaVilaVerde.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
