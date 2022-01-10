@@ -1,0 +1,1 @@
+objGameController.ControleSom();

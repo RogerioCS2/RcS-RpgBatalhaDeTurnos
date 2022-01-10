@@ -4,6 +4,7 @@ posicaoX = 0;
 posicaoY = 0;
 efeitoTransicao = true;
 transparenciaTela = 0;
+direcao = 0;
 
 
 

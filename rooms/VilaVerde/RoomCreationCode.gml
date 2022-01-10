@@ -4,3 +4,4 @@ if(!instance_exists(objPlayer)){
 if(!instance_exists(objBatalhaController)){
 	instance_create_layer(x, y, layer, objBatalhaController);
 }
+objGameController.ControleSom();
