@@ -9,8 +9,14 @@ if(room == BatalhaVilaVerde){
 		image_index = 1;
 		image_speed = 0;
 	}
-	
-	instance_create_layer(room_width - 100, 100, "Inimigos", objGoblin);
+	if(global.inimigos != 0){
+		var numero = array_length_1d(global.inimigos) -1; 
+		var repete = irandom_range(1, global.qtdInimigos);		
+		for(var i = 0; i < repete + 1; i++ ){
+			var selecionaInimigo = irandom(numero);
+			instance_create_layer(room_width - 100, 100 + (i * 100), "Inimigos", global.inimigos[selecionaInimigo]);
+		}		
+	}	
 }else if(direcao != 0){
 	objPlayer.sprite_index = direcao;
 	objGameController.ControleSom();

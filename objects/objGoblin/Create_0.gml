@@ -5,5 +5,5 @@ energia = 0;
 hp = maxHP;
 atq = 2;
 def = 2;  
-agi = 1;
+agi = 5;
 ex = 2;
