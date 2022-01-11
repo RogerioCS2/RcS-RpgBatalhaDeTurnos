@@ -14,7 +14,9 @@ if(room == BatalhaVilaVerde){
 		var repete = irandom_range(1, global.qtdInimigos);		
 		for(var i = 0; i < repete + 1; i++ ){
 			var selecionaInimigo = irandom(numero);
-			instance_create_layer(room_width - 100, 100 + (i * 100), "Inimigos", global.inimigos[selecionaInimigo]);
+			var inimigo = instance_create_layer(room_width - 100, 100 + (i * 100), "Inimigos", global.inimigos[selecionaInimigo]);
+			inimigo.alarm[0] = 5 + (i * 2); 
+			inimigo.numeroInimigos = i;
 		}		
 	}	
 }else if(direcao != 0){

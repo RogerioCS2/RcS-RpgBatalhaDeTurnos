@@ -7,3 +7,6 @@ atq = 2;
 def = 2;  
 agi = 5;
 ex = 2;
+numeroInimigos = 0;
+posicaoXinimigo = x;
+posicaoYinimigo = y;

@@ -6,6 +6,9 @@ global.pontoAtual = 0;
 global.inimigos = 0;
 global.qtdInimigos = 0;
 
+posicao = 0;
+global.inimigoBatalha = ds_list_create();
+
 fimBatalha = false;
 origem = 0;
 origemX = 0;

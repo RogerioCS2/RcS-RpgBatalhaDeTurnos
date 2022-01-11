@@ -28,6 +28,7 @@
     {"id":{"name":"sprBatalha","path":"sprites/sprBatalha/sprBatalha.yy",},"order":8,},
     {"id":{"name":"antComandosGit","path":"notes/antComandosGit/antComandosGit.yy",},"order":1,},
     {"id":{"name":"objGoblin","path":"objects/objGoblin/objGoblin.yy",},"order":0,},
+    {"id":{"name":"sprLuva","path":"sprites/sprLuva/sprLuva.yy",},"order":0,},
     {"id":{"name":"objColisor","path":"objects/objColisor/objColisor.yy",},"order":0,},
     {"id":{"name":"sndMusicaGeral","path":"sounds/sndMusicaGeral/sndMusicaGeral.yy",},"order":0,},
     {"id":{"name":"sprArvoTileVV","path":"sprites/sprArvoTileVV/sprArvoTileVV.yy",},"order":2,},
