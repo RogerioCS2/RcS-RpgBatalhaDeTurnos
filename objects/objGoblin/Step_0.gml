@@ -4,3 +4,6 @@ if(room == BatalhaVilaVerde){
 		energia += agi/5; 	
 	}	
 }
+if(hp <= 0){
+	instance_destroy();
+}

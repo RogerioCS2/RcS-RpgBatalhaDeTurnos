@@ -12,14 +12,20 @@ if(room == BatalhaVilaVerde){
 	if(posicao > numeroItensLista){posicao = 0;}
 	
 	var posy = 0;
+	var posx =  room_width - 150 
 	if(posicao == 0){
-		posy = (objGoblin.posicaoYinimigo); 
+		posy = 100;	
+		posx = posx;
 	} else if(posicao == 1){
-		posy = (objGoblin.posicaoYinimigo) * 2; 		
-	}else{
-		posy = (objGoblin.posicaoYinimigo) * 3;
-	}
+		posy = 200; 
+		posx = posx - 30;
+	}else if(posicao == 2){
+		posy = 300;		
+	} 
+	
+	//var valorX = ds_list_find_value(global.inimigoBatalha, posicao).x;
 	
 	//draw_circle_color(objGoblin.x - 50, posy - 20, 20, c_red, c_maroon, false);
-	draw_sprite(sprLuva, 1, objGoblin.x - 50, posy - 20);
+	
+	draw_sprite(sprLuva, 1,posx, posy - 20);		
 }
