@@ -8,8 +8,12 @@ if(room == BatalhaVilaVerde){
 		sprite_index = sprPlayerDireita;
 		image_index = 1;
 		image_speed = 0;
+		alarm[0] = 5;
 	}
 	if(global.inimigos != 0){
+		global.inimigoBatalha = ds_list_create();
+		global.playerBatalha = ds_list_create();
+		
 		var numero = array_length_1d(global.inimigos) -1; 
 		var repete = irandom_range(1, global.qtdInimigos);		
 		for(var i = 0; i < repete + 1; i++ ){
@@ -26,6 +30,9 @@ if(room == BatalhaVilaVerde){
 		}		
 	}	
 }else if(direcao != 0){
+	ds_list_destroy(global.inimigoBatalha);
+	ds_list_destroy(global.playerBatalha);	
 	objPlayer.sprite_index = direcao;
 	objGameController.ControleSom();
+	objBatalhaController.posicao = 0;
 }

@@ -57,3 +57,7 @@ if(room == BatalhaVilaVerde){
 		energia += agi/5; 	
 	}	
 }
+
+if(defendendo){
+	sprite_index = ColisaoPlayer;	
+}

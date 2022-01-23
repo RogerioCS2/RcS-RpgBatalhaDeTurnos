@@ -1,31 +1,61 @@
 /// @description Menu Batalha
 if(room == BatalhaVilaVerde){
+	var selecionar = keyboard_check_released(ord("X"));
+	var cancelarSelecao = keyboard_check_released(ord("Z"));
+	
+	
+	if(cancelarSelecao){momento--;}
+	if(momento > 2 || momento< 0){momento = 0;}
+		
 	draw_rectangle_color(0 ,room_height, room_width, room_height -60, c_teal, c_teal, c_teal, c_teal, false);
 	draw_rectangle_color(0 ,room_height, room_width, room_height -60, c_black, c_black, c_black, c_black,true);
 	
-	var numeroItensLista = ds_list_size(global.inimigoBatalha) -1;
-	
-	if(keyboard_check_pressed(vk_up)){posicao--;}
-	if(keyboard_check_pressed(vk_down)){posicao++;}	
-	
-	if(posicao < 0){posicao = numeroItensLista;}
-	if(posicao > numeroItensLista){posicao = 0;}
-	
-	var posy = 0;
-	var posx =  room_width - 150 
-	if(posicao == 0){
-		posy = 100;	
-		posx = posx;
-	} else if(posicao == 1){
-		posy = 200; 
-		posx = posx - 30;
-	}else if(posicao == 2){
-		posy = 300;		
-	} 
-	
-	//var valorX = ds_list_find_value(global.inimigoBatalha, posicao).x;
-	
-	//draw_circle_color(objGoblin.x - 50, posy - 20, 20, c_red, c_maroon, false);
-	
-	draw_sprite(sprLuva, 1,posx, posy - 20);		
+	switch(momento){
+		case 0:	
+			playerPosicaoI = ds_list_find_value(global.playerBatalha, posicaoDoPlayer);			
+			ControlePlayer(global.playerBatalha);			
+			if(selecionar && playerPosicaoI.energia >= 99){
+				momento++;				
+			}
+		break;
+		case 1:
+			ControleMenu();
+			if(selecionar){				
+				switch(posicao){
+					case 0:
+						if(playerPosicaoI.defendendo){
+							playerPosicaoI.def /= 2;
+							playerPosicaoI.defendendo = false;	
+							playerPosicaoI.sprite_index = sprPlayerDireita;
+						}
+						momento++;
+					break
+					case 1:
+						momento--
+						playerPosicaoI.def *= 2;
+						playerPosicaoI.defendendo = true;
+						playerPosicaoI.energia = 0;
+					break
+					case 2:
+						global.batalha = false;
+					break
+				}				
+			}
+			if(cancelarSelecao){momento--;}
+		break;
+		case 2:
+			ControleInimigos(global.inimigoBatalha);
+			if(selecionar){				
+				playerPosicaoI.energia = 0;
+				playerPosicaoI = 0;
+				momento = 0;
+				
+				playerPosicaoI = ds_list_find_value(global.playerBatalha, posicaoDoPlayer);					
+				inimigoPosicaoI =  ds_list_find_value(global.inimigoBatalha, posicaoDoInimigo);		
+				show_debug_message(playerPosicaoI.atq - inimigoPosicaoI.def);
+				inimigoPosicaoI.hp -= (playerPosicaoI.atq - inimigoPosicaoI.def);
+			}
+			if(cancelarSelecao){momento--;}
+		break;
+	}	
 }

@@ -6,8 +6,12 @@ global.pontoAtual = 0;
 global.inimigos = 0;
 global.qtdInimigos = 0;
 
+posicaoDoInimigo = 0;
+posicaoDoPlayer = 0;
 posicao = 0;
-global.inimigoBatalha = ds_list_create();
+momento = 0;
+playerPosicaoI = 0;
+inimigoPosicaoI = 0; 
 
 fimBatalha = false;
 origem = 0;

@@ -17,3 +17,4 @@ def = 2;
 agi = 1;
 ex = 0
 lvl = 1;  
+defendendo = false;

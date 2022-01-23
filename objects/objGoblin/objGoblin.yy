@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Inimigos",
-    "path": "folders/Objetos/Inimigos.yy",
+    "path": "folders/Objetos/Efeitos/Inimigos.yy",
   },
   "resourceVersion": "1.0",
   "name": "objGoblin",
