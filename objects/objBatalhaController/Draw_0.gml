@@ -51,9 +51,10 @@ if(room == BatalhaVilaVerde){
 				momento = 0;
 				
 				playerPosicaoI = ds_list_find_value(global.playerBatalha, posicaoDoPlayer);					
-				inimigoPosicaoI =  ds_list_find_value(global.inimigoBatalha, posicaoDoInimigo);		
-				show_debug_message(playerPosicaoI.atq - inimigoPosicaoI.def);
+				inimigoPosicaoI =  ds_list_find_value(global.inimigoBatalha, posicaoDoInimigo);						
 				inimigoPosicaoI.hp -= (playerPosicaoI.atq - inimigoPosicaoI.def);
+				inimigoPosicaoI.dano = true;
+				inimigoPosicaoI.alarm[1] = room_speed;
 			}
 			if(cancelarSelecao){momento--;}
 		break;

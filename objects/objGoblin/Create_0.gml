@@ -10,3 +10,5 @@ ex = 2;
 numeroInimigos = 0;
 posicaoXinimigo = x;
 posicaoYinimigo = y;
+dano = false;
+efeito = false;
